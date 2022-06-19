@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    padding: 2rem 3rem;
+    background: url("img/header-bg.jpg") no-repeat fixed center;
+    background-size: 100% 100vh;
+    max-width: 100%;
+    height: 100vh;
+
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo-container{
+    width: 80px;
+    height: 80px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 0.5rem;
+}
+.logo-name{
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    text-transform:capitalize;
+    margin-right: 2rem;
+    text-align: center;
+}
+.login-link{
+    /* background-color: rgb(172, 172, 25); */
+    /* background-image: linear-gradient(red, yellow); */
+    /* background: rgb(197,208,14); */
+    background: linear-gradient(90deg, rgba(197,208,14,0.9920343137254902) 35%,
+ rgba(255,106,0,0.9192051820728291) 100%);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
