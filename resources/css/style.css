@@ -3,6 +3,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+}
 #header{
     padding: 2rem 3rem;
     background: url("img/header-bg.jpg") no-repeat fixed center;
@@ -43,13 +55,78 @@
     text-transform:capitalize;
     margin-right: 2rem;
     text-align: center;
+    font-size: 1.2rem;
+}
+.nav-link:hover{
+    color: #c5d00efd;
+    transition: 0.5s;
 }
 .login-link{
     /* background-color: rgb(172, 172, 25); */
     /* background-image: linear-gradient(red, yellow); */
     /* background: rgb(197,208,14); */
-    background: linear-gradient(90deg, rgba(197,208,14,0.9920343137254902) 35%,
- rgba(255,106,0,0.9192051820728291) 100%);
+    background: linear-gradient(60deg, #c5d00efd 35%,
+ #ff6a00ea 100%);
     padding: 0.5rem 1rem;
     border-radius: 1rem;
+}
+.login-link:hover{
+    background: linear-gradient(60deg,#ff6a00ea  35%,
+  #c5d00efd 100%);
+  color: white;
+  transition: 0.5s;
+
+}
+.order-container{
+    width: 20rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+.order{
+    display: block;
+    text-transform: capitalize;
+}
+.order-1{
+    color: #c5d00efd;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 7rem;
+}
+.order-2{
+    color:white;
+    font-size: 3rem;
+    margin-left: 7rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+.order-3{
+    color: #c5d00efd;
+    font-family: 'Satisfy', cursive;
+    font-size: 6rem;
+    transform: rotate(-10deg);
+    margin-top: -7rem;
+
+}
+.order-3::first-letter{
+    font-size: 10rem;
+}
+.order-text{
+    color: lightslategray;
+    font-size: 1rem;
+}
+.order-link{
+    color: white;
+    background-color: #c5d00efd;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    width: 8rem;
+    margin-top: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+.order-link:hover{
+    background-color: #ff6a00ea;
+    transition: 0.5s;
 }
