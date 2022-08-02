@@ -7,14 +7,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .flex-row{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 a{
     text-decoration: none;
 }
+:root{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* ________________________________________ */
 #header{
     padding: 2rem 3rem;
     background: url("img/header-bg.jpg") no-repeat fixed center;
@@ -113,6 +121,7 @@ a{
 .order-text{
     color: lightslategray;
     font-size: 1rem;
+    margin-bottom: 2rem;
 }
 .order-link{
     color: white;
@@ -130,3 +139,51 @@ a{
     background-color: #ff6a00ea;
     transition: 0.5s;
 }
+/* ___________________________________________ */
+.ourFood-container{
+    text-align: center;
+}
+.ourFood-header{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.5rem;
+
+}
+.ourFood-text{
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    color: lightslategrey;
+}
+.menu-container{
+    padding-top: 2rem;
+}
+.menu-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #c5d00efd;
+    margin-bottom: 1rem;
+}
+.menu-name{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.menu{
+    width: 33.33%;
+    padding: 2rem 3rem;
+}
+.menu-text{
+    color: gray;
+    margin-bottom: 1rem;
+}
+.menu-cost{
+    color: #c5d00efd;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+/* ______________________________________________ */
